@@ -47,9 +47,50 @@
 
 
 
-let someNumber = 32;
-let stringNumber= String(someNumber)
-console.log(typeof (stringNumber));
-console.log(stringNumber);
+// let someNumber = 32;
+// let stringNumber= String(someNumber)
+// console.log(typeof (stringNumber));
+// console.log(stringNumber);
+
+
+// .............................Operations...................................
+let value =3
+let negValue=-value
+console.log(negValue);
+
+// console.log(2*3)
+// console.log(2+3)
+// console.log(2-3)
+// console.log(2/3)
+// console.log(2%3)
+// console.log(2**3)
+
+
+let str1 ="Hello"
+let str2 = "Lara"
+console.log(str1 + str2);
+let str3 = str1 + str2
+console.log(str3);
+
+console.log(1 + "2");
+console.log("1" + 2);
+console.log(1+2+"2");
+
+console.log(3+2 -5/6%2);// dont perfrom it is not proper way use parenthesis
+console.log(true);
+console.log(+true);         // 1
+console.log("");
+console.log(+false);
+
+let gameCounter=100;
+//gameCounter++;
+console.log(gameCounter);
+++gameCounter;
+console.log(gameCounter);
+
+
+
+
+
 
 
